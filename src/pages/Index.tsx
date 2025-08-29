@@ -123,7 +123,7 @@ const Index = () => {
                     <Badge variant={tour.difficulty === 'Экстрим' ? 'destructive' : tour.difficulty === 'Сложно' ? 'default' : 'secondary'}>
                       {tour.difficulty}
                     </Badge>
-                    <span className="text-2xl font-bold text-primary">15 000₽</span>
+                    <span className="text-2xl font-bold text-primary">6500₽</span>
                   </div>
                   <CardTitle className="text-xl text-secondary group-hover:text-primary transition-colors">
                     {tour.title}
