@@ -242,7 +242,7 @@ const Index = () => {
                 alt="Экстремальный джип тур по горам"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className=""></div>
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h4 className="font-bold text-lg mb-2">Горный экстрим</h4>
                 <p className="text-sm">Покорение крутых склонов</p>
