@@ -236,49 +236,34 @@ const Index = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="group relative overflow-hidden rounded-2xl aspect-square hover:shadow-2xl transition-all duration-300">
-              <img 
-                src="/img/7576633d-bd4c-4994-af25-b8366d4805e9.jpg" 
-                alt="Экстремальный джип тур по горам"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className=""></div>
-              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="group relative overflow-hidden rounded-2xl aspect-square hover:shadow-2xl transition-all duration-300 bg-primary/10">
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-secondary group-hover:text-white opacity-100 group-hover:opacity-100 transition-all duration-300">
                 <h4 className="font-bold text-lg mb-2">Горный экстрим</h4>
                 <p className="text-sm">Покорение крутых склонов</p>
               </div>
             </div>
             
-            <div className="group relative overflow-hidden rounded-2xl aspect-square hover:shadow-2xl transition-all duration-300">
-              <img 
-                src="/img/035e36b4-7e12-45fd-9de5-1f6883b053f9.jpg" 
-                alt="Джип тур по лесным тропам"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
+            <div className="group relative overflow-hidden rounded-2xl aspect-square hover:shadow-2xl transition-all duration-300 bg-primary/10">
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute bottom-4 left-4 right-4 text-secondary group-hover:text-white opacity-100 group-hover:opacity-100 transition-all duration-300">
                 <h4 className="font-bold text-lg mb-2">Лесные тропы</h4>
                 <p className="text-sm">Приключения в дикой природе</p>
               </div>
             </div>
             
-            <div className="group relative overflow-hidden rounded-2xl aspect-square hover:shadow-2xl transition-all duration-300">
-              <img 
-                src="/img/bccbb2ce-6a0a-4459-beb5-abb603d418ef.jpg" 
-                alt="Джип на горной вершине"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
+            <div className="group relative overflow-hidden rounded-2xl aspect-square hover:shadow-2xl transition-all duration-300 bg-primary/10">
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute bottom-4 left-4 right-4 text-secondary group-hover:text-white opacity-100 group-hover:opacity-100 transition-all duration-300">
                 <h4 className="font-bold text-lg mb-2">Горные вершины</h4>
                 <p className="text-sm">Незабываемые панорамы</p>
               </div>
             </div>
             
             {[4, 5, 6].map((item) => (
-              <div key={item} className="group relative overflow-hidden rounded-2xl aspect-square bg-gray-200 hover:shadow-2xl transition-all duration-300">
+              <div key={item} className="group relative overflow-hidden rounded-2xl aspect-square bg-primary/10 hover:shadow-2xl transition-all duration-300">
                 <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4 text-secondary group-hover:text-white opacity-100 group-hover:opacity-100 transition-all duration-300">
                   <h4 className="font-bold text-lg mb-2">Больше приключений</h4>
                   <p className="text-sm">Скоро новые маршруты</p>
                 </div>
