@@ -130,8 +130,7 @@ const Index = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Долина Привидений, Места съемок кавказской пленницы, Крепость Фуна, Буковый Лес, Смотровая площадка>вершина горы Демерджи
-</p>
+                  <p className="text-gray-600 mb-4">Долина Привидений, Места съемок кавказской пленницы, Крепость Фуна, Буковый Лес, Смотровая площадка, вершина горы Демерджи</p>
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center text-sm text-gray-500">
                       <Icon name="Clock" size={16} className="mr-1" />
